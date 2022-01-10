@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/prime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="#1A374D"
+                android:text="Prime Or Not"
+                android:textSize="20sp"
+                android:textColor="#B1D0E0"/>
+
+            <Button
+                android:id="@+id/currency"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="#1A374D"
+                android:text="Currency Converter"
+                android:textSize="20sp"
+                android:textColor="#B1D0E0"/>
+
+
+            <Button
+                android:id="@+id/divisible"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="#1A374D"
+                android:text="divisible by 3 or 5 or by both"
+                android:textSize="20sp"
+                android:textColor="#B1D0E0"/>
+
+            <Button
+                android:id="@+id/allArithmetic"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="#1A374D"
+                android:text="All Arithmetic Operation"
+                android:textSize="20sp"
+                android:textColor="#B1D0E0"/>
+
+            <Button
+                android:id="@+id/findarea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="#1A374D"
+                android:text="Area and Circumference of Circle"
+                android:textSize="20sp"
+                android:textColor="#B1D0E0"/>
+
+            <Button
+                android:id="@+id/MulTable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="#1A374D"
+                android:text="Multiplication Table"
+                android:textSize="20sp"
+                android:textColor="#B1D0E0"/>
+
+            <Button
+                android:id="@+id/cenTometer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="#1A374D"
+                android:text="centimeter into meter and kilometer"
+                android:textSize="20sp"
+                android:textColor="#B1D0E0"/>
+
+            <Button
+                android:id="@+id/Power"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="#1A374D"
+                android:text="power of any number using for loop."
+                android:textSize="20sp"
+                android:textColor="#B1D0E0"/>
+
+            <Button
+                android:id="@+id/vowel_consonant"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="#1A374D"
+                android:text="Check Whether it Vowel or Consonant"
+                android:textSize="20sp"
+                android:textColor="#B1D0E0"/>
+
+            <Button
+                android:id="@+id/Digits"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="#1A374D"
+                android:text="Count Number of digits in a number"
+                android:textSize="20sp"
+                android:textColor="#B1D0E0"/>
+
+            <Button
+                android:id="@+id/first_last_digits"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:backgroundTint="#1A374D"
+                android:text="First and last digit of a number"
+                android:textSize="20sp"
+                android:textColor="#B1D0E0"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

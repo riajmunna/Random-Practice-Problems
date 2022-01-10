@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.class_practice_problems">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Class_Practice_Problems">
+        <activity
+            android:name=".FirstandLastDigits"
+            android:exported="false" />
+        <activity
+            android:name=".Digits"
+            android:exported="false" />
+        <activity
+            android:name=".Vow_Con"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AllArithmetic" />
+        <activity android:name=".CenToMeter" />
+        <activity android:name=".CurrencyConverter" />
+        <activity android:name=".DivisibleActivity" />
+        <activity android:name=".FindArea" />
+        <activity android:name=".Power" />
+        <activity android:name=".MultiTable" />
+        <activity android:name=".PrimeActivity" />
+    </application>
+
+</manifest>
